@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    <header>
+        <h1>Bem Vindo a Sua Reserva de Viagem</h1>
+    </header>
+
+    <form action="" method="get">
+        <section>
+            
+            <fieldset>
+                <legend>Dados do Usuario</legend>
+
+                <label>
+                    Nome: <br>
+                    <input type="text" name="nome" required>
+                </label><br><br>
+
+                <label>
+                    Email: <br>
+                    <input type="email" name="email" required>
+                </label>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Serviços Desejados</legend>
+
+                <label>
+                    <input type="checkbox" name="passagens" value="passagens">Compra de Passagens<br>
+                </label>
+
+                <label>
+                    <input type="checkbox" name="hospedagem" value="hospedagem">Reserva de Hospedagem<br>
+                </label>
+
+                <label>
+                    <input type="checkbox" name="veiculos" value="veiculos">Aluguel de Veículos<br>
+                </label>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Forma de Pagamento</legend>
+
+                <label>
+                    <input type="radio" name="pagamento" value="credito">Cartão de Crédito<br>
+                </label>
+
+                <label>
+                    <input type="radio" name="pagamento" value="boleto">Boleto<br>
+                </label>
+
+                <label>
+                    <input type="radio" name="pagamento" value="pix">PIX<br>
+                </label>
+            </fieldset>
+        </section>
+        
+        <section>
+            <fieldset>
+                <legend>Prazo de Pagamento</legend>
+
+                <select name="prazo" required>
+                    <option value="" disabled selected></option>
+                    <option value="vista">À Vista</option>
+                    <option value="5x">Cinco Vezes Sem Juros</option>
+                    <option value="10x">Dez Vezes Com Juros</option>
+                </select>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Observações</legend>
+
+                <textarea name="obse" rows="3"></textarea>
+            </fieldset>
+        </section>
+        <br>
+
+        <label>
+            <input type="submit" value="Enviar">
+        </label>
+    </form>
+    <hr>
+
+    <footer>
+        Desenvolvido por Getulio Vagner
+    </footer>
+</body>
+</html>
