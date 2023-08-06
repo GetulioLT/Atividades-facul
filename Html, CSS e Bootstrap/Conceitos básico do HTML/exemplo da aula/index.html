@@ -93,7 +93,7 @@
                     </td>
                 </tr>
             </tbody>
-            
+
             <tfoot>
                 <tr>
                     <th>
@@ -105,6 +105,71 @@
                 </tr>
             </tfoot>
         </table>
+    </section>
+
+    <section>
+        <h2>Orçamento</h2>
+        <form action="" method="get">
+            <label>Nome: </label><br>
+            <input type="text" name="nome"><br>
+
+            <label>Email: </label><br>
+            <input type="email" name="email"><br>
+
+            <label>Data de ida</label><br>
+            <input type="date" name="dataIda"><br>
+
+            <label>Data de volta</label><br>
+            <input type="date" name="dataVolta"><br>
+
+            <label>Quantidade de Pessoas</label><br>
+            <input type="number" name="pessoas"><br>
+
+            <label>Senha de entrada</label><br>
+            <input type="password" name="senhaEntrada"><br>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar:</legend>
+
+                <label>
+                    <input type="checkbox" name="hotel" value="hotel">Reserva Hotel<br>
+                </label>
+                <label>
+                    <input type="checkbox" name="carro" value="carro">Alugue de Carro<br>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual será a forma de pagamento:</legend>
+
+                <label>
+                    <input type="radio" name="pagamento" value="debito">Debito<br>
+                </label>
+                <label>
+                    <input type="radio" name="pagamento" value="credito">Credito<br>
+                </label>
+                <label>
+                    <input type="radio" name="pagamento" value="pix">Pix<br>
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Pacelamento:</legend>
+
+                <select name="prazo">
+                    <option value="" disabled selected></option>
+                    <option value="vista">A vista</option>
+                    <option value="x2">2x</option>
+                    <option value="x3">3x</option>
+                </select>
+            </fieldset>
+
+            <label>Comentario</label><br>
+            <textarea rows="5" name="comentario"></textarea><br>
+
+            <button type="submit" value="">Salvar</button>
+
+        </form>
     </section>
     <hr>
 
