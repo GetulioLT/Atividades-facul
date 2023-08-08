@@ -2,20 +2,14 @@ let numero = [1, 2, 3, 5, 8, 13, 21];
 
 console.log(numero);
 
-console.log(numero.join(" - "));
-
-console.log(numero.shift());
-
-console.log(numero.pop());
+numero.splice(2, 3);
 
 console.log(numero);
 
-console.log(numero.slice(0, 2));
-
-numero.push(21, 34)
+numero.unshift(6, 5, 4);
 
 console.log(numero);
 
-numero.unshift(0)
+numero.splice(-1, 1, 100);
 
 console.log(numero);
