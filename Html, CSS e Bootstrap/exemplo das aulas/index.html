@@ -1,51 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem dos sonhos</title>
-    <style>
-        p{
-            color: green;
-        }
-    </style>
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li>Pacotes</li>
-                <li>Taxa</li>
-                <li>Contato</li>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxa</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
-
-            <ol>
-                <li>Pacotes</li>
-                <li>Taxa</li>
-                <li>Contato</li>
-            </ol>
-
-            <dl>
-                <dt>Coffe</dt>
-                    <dd>- Black Hot Drink</dd>
-                <dt>Milk</dt>
-                    <dd>- White Cold Drink</dd>
-            </dl>
         </nav>
-        <h1 style="color: red;">Venha realizar a viagem dos seus sonhos!</h1>
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
     </header>
 
     <section>
         <h2>Conheça nossos pacotes</h2>
-        <p style="color: blue;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Etiam sed neque in nunc dapibus porta. Sed dignissim odio 
-            massa, nec dignissim lectus fringilla ac. Nullam eget 
-            ornare urna, a auctor purus. Donec commodo eleifend 
-            scelerisque. Donec fermentum est quis odio finibus sagittis. 
-            Vivamus at urna tellus. Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit. Nunc blandit leo sed odio 
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Etiam sed neque in nunc dapibus porta. Sed dignissim odio
+            massa, nec dignissim lectus fringilla ac. Nullam eget
+            ornare urna, a auctor purus. Donec commodo eleifend
+            scelerisque. Donec fermentum est quis odio finibus sagittis.
+            Vivamus at urna tellus. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nunc blandit leo sed odio
             vehicula finibus. Aliquam aliquam nisl lorem. Donec nec nibh
             feugiat, sagittis sem et, consectetur orci.
         </p>
@@ -55,36 +39,44 @@
     <section>
         <h2>Conheça nossos pacotes</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Etiam sed neque in nunc dapibus porta. Sed dignissim odio 
-            massa, nec dignissim lectus fringilla ac. Nullam eget 
-            ornare urna, a auctor purus. Donec commodo eleifend 
-            scelerisque. Donec fermentum est quis odio finibus sagittis. 
-            Vivamus at urna tellus. Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit. Nunc blandit leo sed odio 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Etiam sed neque in nunc dapibus porta. Sed dignissim odio
+            massa, nec dignissim lectus fringilla ac. Nullam eget
+            ornare urna, a auctor purus. Donec commodo eleifend
+            scelerisque. Donec fermentum est quis odio finibus sagittis.
+            Vivamus at urna tellus. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nunc blandit leo sed odio
             vehicula finibus. Aliquam aliquam nisl lorem. Donec nec nibh
             feugiat, sagittis sem et, consectetur orci.
         </p>
         <hr>
     </section>
 
-    <section>
-        <figure>
-            <img src="img/imagem.png" alt="viagem" width="300px" height="300px">
-            <figcaption>Viagem</figcaption>
-        </figure>
-    </section>
+    <section id="pacotes">
+        <div class="figures">
+            <figure>
+                <img src="img/imagem.png" alt="viagem" width="300px" height="300px">
+                <figcaption>Viagem</figcaption>
+            </figure>
 
-    <section>
-        <video width="300px" height="300px" controls>
-            <source src="video/video.webm" type="video/webm">
-            Seu navegador não suporta o tipo do video. Caso queira baixar: <a href="video/video.webm">Clique aqui</a>
-        </video>
+            <figure>
+                <img src="img/imagem.png" alt="viagem" width="300px" height="300px">
+                <figcaption>Viagem</figcaption>
+            </figure>
+        </div>
+
+        <div class="video">
+            <video width="300px" height="300px" controls>
+                <source src="video/video.webm" type="video/webm">
+                Seu navegador não suporta o tipo do video. Caso queira baixar: <a href="video/video.webm">Clique aqui</a>
+            </video>
+        </div>
+
     </section>
 
     <section>
         <h2>Taxas e Serviços</h2>
-        <table border>
+        <table>
             <caption>Descrição dos serviços e dos respectivos valores.</caption>
 
             <thead>
@@ -175,7 +167,7 @@
                     <input type="radio" name="pagamento" value="pix">Pix<br>
                 </label>
             </fieldset>
-            
+
             <fieldset>
                 <legend>Pacelamento:</legend>
 
@@ -200,4 +192,5 @@
         <p>Desenvolvido por Getulio</p>
     </footer>
 </body>
+
 </html>
